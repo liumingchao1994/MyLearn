@@ -1,9 +1,7 @@
 package com.zhaoyan.dao;
 
 import com.zhaoyan.bean.People;
-import org.springframework.data.repository.CrudRepository;
 
-public interface PeopleDao extends CrudRepository<People, Integer> {
-
+public interface PeopleDao extends MyBaseRepository<People, Integer> {
 
 }
