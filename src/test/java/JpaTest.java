@@ -48,7 +48,7 @@ public class JpaTest {
     public void testFun() {
 //        log.info("users : " + uDao.findAll());
 //        log.info(pDao.findById(10));
-        log.info(pDao.findAll());
+        log.info(uDao.xxxxxxx("123456"));
     }
 }
 
